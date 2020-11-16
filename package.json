@@ -1,10 +1,11 @@
 {
-  "name": "expresspractice",
+  "name": "hello-express",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "console.log('hello')"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/edgerees/hello-express#readme",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
